@@ -13,6 +13,10 @@ sampleDict = {
    }
 }
 
+print(sampleDict['class']['student']['marks']['history'])
+x = sampleDict.get("history")
+print(x)
+
 
 
 
@@ -20,7 +24,8 @@ sampleDict = {
 
 dict={"son's name": "Lucas", "son's eyes": "green", "son's height": 32, "son's weight": 25}
 
-
+dict.update({"son's height": 34})
+print(dict)
 
 
 
